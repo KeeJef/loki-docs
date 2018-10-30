@@ -22,15 +22,15 @@
 
 ## Legal
 
-Running a Lokinet Exit node simply means that you are requesting and relaying packets of data on someone else's behalf, a vast majority of the traffic in mixnets comprised of legal and non malicious traffic, however statically over the course of running a Service Node you are likely to run into a few users who abuse their anonymity to send or receive information that may be explicitly malicious, therefor it is important that we discuss the legal implications of this malicious traffic.
+Running a Lokinet Exit node simply means that you are requesting and relaying packets of data on someone else's behalf, a vast majority of the traffic in mixnets comprised of legal and non malicious traffic. Statically over the course of running a Service Node you are likely to run into a few users who abuse their anonymity to send or receive information that may be explicitly malicious, therefor it is important that we discuss the legal implications of this malicious traffic.
 
-In most countries Exit nodes are viewed in much the same way as ISP's are, that is that they are usually classed as data transmitters, which makes them exempt from criminal or civil liability based on the data they transmit, this means they are also covered by exceptions in the EUCD and DMCA laws which stipulate content regulation on the internet in the US and Europe respectively.
+In most countries Exit nodes are viewed in much the same way as ISP's are, that is that they are usually classed as data transmitters, which makes them exempt from criminal or civil liability based on the data they transmit. This means they are also covered by exceptions in the EUCD and DMCA laws which stipulate content regulation on the internet in the US and Europe respectively.
 
 Despite this its important to consider that unlike ISP's exit node operators usually do not have large legal teams and a budget to fight prosecutions in court. Although a legal suit has never been brought against a Tor exit node operator, these are risks that each operator must control for.
 
 For this reason you should always check the laws of the relevant country you are operating your Service Node out of. If you run into legal challenges we recommend contacting the EFF who may be interested in hearing a case of Exit Node prosecution.
 
-Although all relevant information, it still stands as likley the most contact you are to have as you run an exit node is with your ISP or VPS provider who is likely to forward DMCA takedown notices, or abuse requests to the email address you used to sign up with. 
+Although all relevant information, it still stands as likely the most contact you are going to receive as you run an exit node is with your ISP or VPS provider who is likely to forward DMCA takedown notices, or abuse requests to the email address you used to sign up with. 
 
 
 ### Disclaimer
@@ -47,7 +47,8 @@ If you decided to run a Service Node with exit functionality there are a couple 
 
 **European ISP**
 
-```Dear [ISP]:
+```
+Dear [ISP]:
 
 Thank you for forwarding me the notice you received from [copyright claimant] regarding [content]. I would like to assure you that I am not hosting the claimed infringing materials, and furthermore, both the Digital Millennium Copyright Act's ("DMCA") and the European Union Copyright Directive (“EUCD”) safe harbors likely protect you from liability arising from this complaint. The notice is likely based upon misunderstandings about the law and about some of the software I run.
 
@@ -68,7 +69,8 @@ Your customer, [User]
 **American ISP**
 
 
-```Dear [ISP]:
+```
+Dear [ISP]:
 
 Thank you for forwarding me the notice you received from [copyright claimant] regarding [content]. I would like to assure you that I am not hosting the claimed infringing materials, and furthermore, the Digital Millennium Copyright Act's ("DMCA") safe harbors likely protect you from liability arising from this complaint. The notice is likely based upon misunderstandings about the law and about some of the software I run.
 
@@ -84,10 +86,10 @@ Thank you for working with me on this matter. As a loyal subscriber, I appreciat
 
 Very truly yours,
 Your customer, [User]
-
+```
 **General Statement**
 
-
+```
 The IP address in question is a Loki exit node.
 https://www.torproject.org/overview.html
 
@@ -106,7 +108,7 @@ Targets, law enforcement, just to name a few.
 Unfortunately, some people misuse the network. However, compared to
 the rate of legitimate use the fraction of misuse is small and abuse complaints are rare. however because of the nature of anonymity networks little can be done to trace the origin of these malicious users.
 
-
+```
 //TODO: Add additional templates once DNSRBL is added
 
 
